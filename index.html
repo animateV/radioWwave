@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Радио W-Wave</title>
+
+
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#292e39">
+  <meta name="msapplication-TileColor" content="#b91d47">
+  <meta name="theme-color" content="#e2e2e2">
+  <!--  -->
+
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/prefix_style.css">
+  <!--  -->
+</head>
+
+<body>
+
+
+
+  <!-- Шапка страницы -->
+  <header class="header" id="header">
+    <div class="container header__top flex">
+
+      <!-- Логотип -->
+      <div class="header__link-box flex">
+        <a class="header__link-logo" href="#!">
+          <picture>
+            <source srcset="img/header/logo/wwave_320.svg" media="(max-width: 320px)">
+            <source srcset="img/header/logo/wwave_1024.svg" media="(max-width: 1024px)">
+            <img class="header__logo" src="img/header/logo/wwave_1920.svg" alt="w-wave">
+          </picture>
+        </a>
+      </div>
+
+      <!-- Навигация в шапке -->
+      <nav class="header__navigation flex">
+        <div class="header__list-box">
+          <ul class="header__list list-reset flex">
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#podcasts">Подкасты</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#transfers">Передачи</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#guests">Гости</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#playlists">Плейлисты</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#about">О&nbsp;нас</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Кнопка поиска -->
+        <div class="header__button-box flex">
+          <button class="header__button button-reset" type="button" aria-label="Поиск"></button>
+        </div>
+      </nav>
+
+
+      <!-- Кнопка поиска присутствует только на 768px и меньше -->
+      <div class="header__button-box reset">
+        <button class="header__button button-reset" type="button" aria-label="Поиск"></button>
+      </div>
+
+    </div>
+
+
+
+    <!-- Нижний блок присутствует только на 768px и меньше -->
+    <div class="header__bottom reset">
+      <div class="container">
+        <!-- Нижняя навигация присутствует только на 768px и меньше -->
+        <nav class="header__navigation reset">
+          <ul class="header__list list-reset flex">
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#podcast">Подкасты</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#transfers">Передачи</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#guests">Гости</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#playlists">Плейлисты</a>
+            </li>
+
+            <li class="header__item header-item">
+              <a class="header-item__link" href="#about">О&nbsp;нас</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class="main">
+
+    <!-- Секция home -->
+    <section class="home">
+      <div class="container home__cotainer flex">
+
+        <!-- Текстовое содержимое -->
+        <div class="home__content">
+          <h1 class="home__title home-title">Радио <span class="home-title__deffer">W-Wave</span></h1>
+
+          <p class="home__descr">
+            Привет, на&nbsp;связи W-Wave! Раньше мы&nbsp;были изданием, а&nbsp;теперь пробуем себя в&nbsp;разоворном жанре. Говорим о&nbsp;музыке, политике, истории, науке и&nbsp;культуре. Здесь, помимо прямого эфира&nbsp;&mdash; архив передач и&nbsp;многое другое:)
+          </p>
+
+          <div class="home__link-box flex">
+            <a class="home__link" href="#!">Слушать эфир</a>
+          </div>
+        </div>
+
+        <!-- Фоновое изображение -->
+        <div class="home__logo"></div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Секция podcast -->
+    <section class="podcast" id="podcasts">
+      <div class="container">
+
+        <h2 class="section-title podcast__titile">Подкасты</h2>
+
+        <!-- Список подкастов -->
+        <ul class="podcast__cards podcast-cards list-reset flex">
+
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__europe-nineteenth-century">
+
+              <div class="podcast-priview__time">15:43</div>
+
+              <h3 class="podcast-priview__title">Европа. XIX век</h3>
+
+              <div class="podcast-priview__surname-name">Дмитрий Гутенберг</div>
+
+              <time class="podcast-priview__date" datetime="2024-06-14">14 июня</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__about-music">
+
+              <div class="podcast-priview__time">5:32</div>
+
+              <h3 class="podcast-priview__title">О&nbsp;музыке</h3>
+
+              <div class="podcast-priview__surname-name">Дмитрий Гутенберг</div>
+
+              <time class="podcast-priview__date" datetime="2024-06-11">11 июня</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__people-today">
+
+              <div class="podcast-priview__time">8:54</div>
+
+              <h3 class="podcast-priview__title">Люди сегодня</h3>
+
+              <div class="podcast-priview__surname-name">Анна Васильева</div>
+
+              <time class="podcast-priview__date" datetime="2024-06-08">8 июня</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__hello-africa">
+
+              <div class="podcast-priview__time">9:04</div>
+
+              <h3 class="podcast-priview__title">Хэллоу, Африка!</h3>
+
+              <div class="podcast-priview__surname-name">Пётр Дмитриевский</div>
+
+              <time class="podcast-priview__date" datetime="2024-06-05">5 июня</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__about-everything">
+
+              <div class="podcast-priview__time">7:03</div>
+
+              <h3 class="podcast-priview__title">Обо всём</h3>
+
+              <div class="podcast-priview__surname-name">Пётр Дмитриевский</div>
+
+              <time class="podcast-priview__date" datetime="2024-06-02">2 июня</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__color-physics">
+
+              <div class="podcast-priview__time">9:15</div>
+
+              <h3 class="podcast-priview__title">Физика цвета</h3>
+
+              <div class="podcast-priview__surname-name">Татьяна Флеганова</div>
+
+              <time class="podcast-priview__date" datetime="2024-05-28">28 мая</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__sound-source">
+
+              <div class="podcast-priview__time">16:04</div>
+
+              <h3 class="podcast-priview__title">Источник звука</h3>
+
+              <div class="podcast-priview__surname-name">Пётр Дмитриевский</div>
+
+              <time class="podcast-priview__date" datetime="2024-05-22">22 мая</time>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="podcast__priview podcast-priview">
+            <article class="podcast-priview__content podcast-priview__rules-etiquette">
+
+              <div class="podcast-priview__time">6:55</div>
+
+              <h3 class="podcast-priview__title">Правила этикета</h3>
+
+              <div class="podcast-priview__surname-name">Татьяна Флеганова</div>
+
+              <time class="podcast-priview__date" datetime="2024-05-18">18 мая</time>
+
+            </article>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+
+
+    <!-- Секция transfers -->
+    <section class="transfers" id="transfers">
+      <div class="container transfers__container">
+
+        <!-- Заголовок который присутствует только на 768px и меньше -->
+        <h2 class="section-title transfers__title reset">Передачи</h2>
+
+        <!-- Блок с заголовком и описанием архива присутсвует только на 1920 и до 768px-->
+        <div class="transfers__aside transfers-aside flex">
+
+          <h2 class="section-title transfers__title">Передачи</h2>
+
+          <div class="transfers-aside__box">
+            <a class="transfers-aside__link" href="#!">Архив</a>
+
+            <p class="transfers-aside__descr">
+              В&nbsp;архив попадают все передачи, которые вы&nbsp;пропустили! Enjoy:)
+            </p>
+          </div>
+
+        </div>
+
+
+
+        <!-- Список карточек -->
+        <ul class="transfers__list list-reset flex">
+          <li class="transfers__card">
+            <article class="transfers__priview transfers-priview transfers-priview--about_people_books">
+
+              <!-- Текстовое содержимое -->
+              <div class="transfers-priview__content transfers-content">
+                <div class="transfers-content__box">
+                  <h3 class="transfers-priview__title">О&nbsp;людях и&nbsp;книгах</h3>
+
+                  <div class="transfers-priview__shdule">Анонсируется отдельно</div>
+                </div>
+
+                <a class="transfers-priview__link" href="#!">Подробнее</a>
+              </div>
+
+            </article>
+          </li>
+
+          <li class="transfers__card">
+            <article class="transfers__priview transfers-priview transfers-priview--graphomania_td">
+
+              <!-- Текстовое содержимое -->
+              <div class="transfers-priview__content transfers-content">
+                <div class="transfers-content__box">
+                  <h3 class="transfers-priview__title">Графомания&nbsp;td</h3>
+
+                  <div class="transfers-priview__shdule">По&nbsp;понедельникам в&nbsp;10:00</div>
+                </div>
+
+                <a class="transfers-priview__link" href="#!">Подробнее</a>
+              </div>
+
+            </article>
+          </li>
+
+          <li class="transfers__card">
+            <article class="transfers__priview transfers-priview transfers-priview--not_rome_troy">
+
+              <!-- Текстовое содержимое -->
+              <div class="transfers-priview__content transfers-content">
+                <div class="transfers-content__box">
+                  <h3 class="transfers-priview__title">Не&nbsp;Рим, не&nbsp;Троя</h3>
+
+                  <div class="transfers-priview__shdule">По&nbsp;вторникам в&nbsp;12:00</div>
+                </div>
+
+                <a class="transfers-priview__link" href="#!">Подробнее</a>
+              </div>
+
+            </article>
+          </li>
+
+          <li class="transfers__card">
+            <article class="transfers__priview transfers-priview transfers-priview--polymath">
+
+              <!-- Текстовое содержимое -->
+              <div class="transfers-priview__content transfers-content">
+                <div class="transfers-content__box">
+                  <h3 class="transfers-priview__title">Эрудит</h3>
+
+                  <div class="transfers-priview__shdule">По&nbsp;пятницам в&nbsp;17:00</div>
+                </div>
+
+                <a class="transfers-priview__link" href="#!">Подробнее</a>
+              </div>
+
+            </article>
+          </li>
+
+          <li class="transfers__card">
+            <article class="transfers__priview transfers-priview transfers-priview--subtleties_epochs">
+
+              <!-- Текстовое содержимое -->
+              <div class="transfers-priview__content transfers-content">
+                <div class="transfers-content__box">
+                  <h3 class="transfers-priview__title">Тонкости эпох</h3>
+
+                  <div class="transfers-priview__shdule">По&nbsp;субботам в&nbsp;10:00</div>
+                </div>
+
+                <a class="transfers-priview__link" href="#!">Подробнее</a>
+              </div>
+
+            </article>
+          </li>
+
+          <li class="transfers__card">
+            <article class="transfers__priview transfers-priview transfers-priview--iving_thoughts">
+
+              <!-- Текстовое содержимое -->
+              <div class="transfers-priview__content transfers-content">
+                <div class="transfers-content__box">
+                  <h3 class="transfers-priview__title">Живые мысли</h3>
+
+                  <div class="transfers-priview__shdule">По&nbsp;воскресеньям в&nbsp;15:30</div>
+                </div>
+
+                <a class="transfers-priview__link" href="#!">Подробнее</a>
+              </div>
+
+            </article>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+
+
+    <!-- Блок с информацией об архиве который присутствует только на 768px и меньше -->
+    <div class="container transfers-aside arhive-container">
+      <div class="transfers-aside__box reset">
+
+        <a class="transfers-aside__link" href="#!">Архив</a>
+
+        <p class="transfers-aside__descr">
+          В&nbsp;архив попадают все&nbsp;передачи, которые вы&nbsp;пропустили! Enjoy:)
+        </p>
+
+      </div>
+    </div>
+
+
+
+    <!-- Секция guests -->
+    <section class="guests" id="guests">
+      <div class="container">
+
+        <h2 class="section-title guests__title">Гости</h2>
+
+        <div class="guests__types-guests">У&nbsp;нас бывают:</div>
+
+        <p class="guests__subtitle">
+          Блогеры, арт-критики и&nbsp;деятели искусства, музыканты, молодые учёные и&nbsp;люди науки, историки, филологи и&nbsp;много других интересных гостей!
+        </p>
+
+        <!-- Список гостей -->
+        <ul class="guests__cards list-reset flex">
+
+          <!-- ================================================= -->
+          <li class="guests__card flex">
+            <!-- Изображние гостя -->
+            <div class="guests__pictyre-box">
+              <picture>
+                <source srcset="img/guests/image_320/olga_martynova_blonde.webp" media="(max-width: 320px)">
+                <source srcset="img/guests/image_768/olga_martynova_blonde.webp" media="(max-width: 992px)">
+                <img class="guests__image" src="img/guests/image_1920/olga_martynova_blonde.webp" alt="Ольга Мартынова">
+              </picture>
+            </div>
+
+            <!-- Описание гостя -->
+            <div class="guests__content guests-content flex">
+              <div class="guests-content__box">
+                <h3 class="guests-content__name">Ольга Мартынова</h3>
+
+                <p class="guests__interests">
+                  Российский искусствовед, арт-критик, куратор выставок, дизайнер, кандидат культурологии. Арт-критик газеты &laquo;Коммерсантъ&raquo;. Ведёт активную блогерскую деятельность как&nbsp;куратор музея &laquo;Гараж&raquo;, коим является с&nbsp;2016&nbsp;года.
+                </p>
+              </div>
+
+              <a class="guests-content__esters-guests" href="#!">Эфиры с&nbsp;гостем</a>
+            </div>
+          </li>
+          <!-- ================================================= -->
+          <li class="guests__card flex">
+            <!-- Изображние гостя -->
+            <div class="guests__pictyre-box">
+              <picture>
+                <source srcset="img/guests/image_320/denis_grishin.webp" media="(max-width: 320px)">
+                <source srcset="img/guests/image_768/denis_grishin.webp" media="(max-width: 992px)">
+                <img class="guests__image" src="img/guests/image_1920/denis_grishin.webp" alt="Денис Гришин">
+              </picture>
+            </div>
+
+            <!-- Описание гостя -->
+            <div class="guests__content guests-content flex">
+              <div class="guests-content__box">
+                <h3 class="guests-content__name">Денис Гришин</h3>
+
+                <p class="guests__interests">
+                  Однозначно, элементы политического процесса являются только методом политического участия и&nbsp;смешаны с&nbsp;не&nbsp;уникальными данными до&nbsp;степени совершённой неузнаваемости, из-за чего возрастает их&nbsp;статус бесполезности.
+                </p>
+              </div>
+
+              <a class="guests-content__esters-guests" href="#!">Эфиры с&nbsp;гостем</a>
+            </div>
+
+          </li>
+          <!-- ================================================= -->
+          <li class="guests__card flex">
+            <!-- Изображние гостя -->
+            <div class="guests__pictyre-box">
+              <picture>
+                <source srcset="img/guests/image_320/olga_martynova_redhead.webp" media="(max-width: 320px)">
+                <source srcset="img/guests/image_768/olga_martynova_redhead.webp" media="(max-width: 992px)">
+                <img class="guests__image" src="img/guests/image_1920/olga_martynova_redhead.webp" alt="Ольга Мартынова">
+              </picture>
+            </div>
+
+            <!-- Описание гостя -->
+            <div class="guests__content guests-content flex">
+              <div class="guests-content__box">
+                <h3 class="guests-content__name">Ольга Мартынова</h3>
+
+                <p class="guests__interests">
+                  С&nbsp;другой стороны, высококачественный прототип будущего проекта выявляет срочную потребность дальнейших направлений развития. В&nbsp;рамках спецификации современных стандартов, реплицированные с&nbsp;зарубежных источников.
+                </p>
+              </div>
+
+              <a class="guests-content__esters-guests" href="#!">Эфиры с&nbsp;гостем</a>
+            </div>
+          </li>
+          <!-- ================================================= -->
+
+        </ul>
+
+      </div>
+    </section>
+
+
+
+    <!-- Секция playlists -->
+    <section class="playlists" id="playlists">
+      <div class="container playlists__container">
+
+        <!-- Блок с информацией о Плейлистах -->
+        <div class="playlists__info-box playlists-info">
+
+          <h2 class="section-title playlists__title">Плейлисты</h2>
+
+          <p class="playlists-info__descr">
+            Раздел &laquo;Плейлисты&raquo; может содержать информацию, не&nbsp;предназначенную для&nbsp;несовершеннолетних
+          </p>
+
+          <small class="playlists-info__copyright">2021&nbsp;l W-Wave</small>
+
+        </div>
+
+
+
+        <!-- Список карточек -->
+        <ul class="playlists__cards list-reset flex">
+
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--ploho">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Ploho</h3>
+
+                <div class="playlists-priview__viewed">3&nbsp;последних альбома</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--molchat-doma">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Molchat Doma</h3>
+
+                <div class="playlists-priview__viewed">Все песни</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--motorama">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Motorama</h3>
+
+                <div class="playlists-priview__viewed">Все синглы</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--human-tetris">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Human Tetris</h3>
+
+                <div class="playlists-priview__viewed">3&nbsp;последних альбома</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--buerack">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Буерак</h3>
+
+                <div class="playlists-priview__viewed">Все&nbsp;EP</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--july-days">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Июльские Дни</h3>
+
+                <div class="playlists-priview__viewed">Альбом &laquo;Колокол&raquo;</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--joy-division">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Joy Division</h3>
+
+                <div class="playlists-priview__viewed">Лучшее за&nbsp;всё время</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--the-cure">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">The Cure</h3>
+
+                <div class="playlists-priview__viewed">Лучшее за&nbsp;всё время</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--the-smiths">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">The Smiths</h3>
+
+                <div class="playlists-priview__viewed">Период 1984&ndash;1988</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--new-order">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">New Order</h3>
+
+                <div class="playlists-priview__viewed">Хиты</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--bauhaus">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Bauhaus</h3>
+
+                <div class="playlists-priview__viewed">Все синглы</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+          <li class="playlists__card playlists__card--gang-of-four">
+            <article class="playlists__blog-priview playlists-priview">
+
+              <!-- Текстовое содержимое карточкм -->
+              <div class="playlists-priview__content">
+
+                <h3 class="playlists-priview__name-group">Gang Of&nbsp;Four</h3>
+
+                <div class="playlists-priview__viewed">3&nbsp;последних альбома</div>
+
+              </div>
+
+            </article>
+          </li>
+          <!-- ========================================================== -->
+
+        </ul>
+
+      </div>
+    </section>
+
+
+
+    <!-- Секция purchase -->
+    <section class="purchase">
+      <div class="container purchase__container">
+
+        <!-- Логотип на фоне -->
+        <div class="purchase__picture-box">
+          <picture>
+            <source srcset="img/purchase/radio_320.webp" media="(max-width: 320px)">
+            <source srcset="img/purchase/radio_768.webp" media="(max-width: 992px)">
+            <source srcset="img/purchase/radio_1024.webp" media="(max-width: 1024px)">
+            <img class="purchase__logo" src="img/purchase/radio_1920.webp" alt="" aria-hidden="true">
+          </picture>
+        </div>
+
+
+
+        <!-- Текстове содержимое -->
+        <div class="purchase__wrapper">
+          <h3 class="section-title purchase__title">Будь с&nbsp;нами <br class="purchase__on-one"> на&nbsp;одной волне!</h3>
+
+          <p class="purchase__greeting-text purchase__text-similar">
+            Друзья, рады представить вам&nbsp;продукт нашего производства! Да-да, несмотря на&nbsp;то, что&nbsp;мы&nbsp;только начали свой путь радиовещателей, нам&nbsp;хочется, чтобы&nbsp;вы&nbsp;могли как&nbsp;следует нас&nbsp;расслышать:)
+          </p>
+
+          <p class="purchase__radio-text purchase__text-similar">
+            Итак, встречайте! Портативный радиоприёмник-колонка W-Wave&nbsp;1.0&nbsp;xm. Тщательный подбор всех делатей, ручная сборка, качественный звук. Пока доступно только 60&nbsp;штук в&nbsp;3&nbsp;цветах, но&nbsp;мы&nbsp;активно трудимся над новыми партиями и&nbsp;дизайном. Спешите приобрести!
+          </p>
+
+          <div class="purchase__price">
+            2&nbsp;800&nbsp;₽
+          </div>
+
+          <a class="purchase__market-link" href="https://market.yandex.ru/">Купить на Яндекс.Маркет</a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Секция about -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <!-- Блок с текстом -->
+        <div class="about__box about-box">
+          <div class="about-box__content">
+            <h2 class="section-title about__title">О&nbsp;нас</h2>
+
+            <p class="about__checking-connection">
+              Приём-приём! Как слышно? Мы&nbsp;уже&nbsp;в&nbsp;эфире? Отлично, поехали!
+            </p>
+
+            <p class="about__glad-welcome">
+              Друзья, мы&nbsp;будем очень рады, если&nbsp;вы&nbsp;поможете стать нам лучше. Нам важен каждый слушатель, поэтому вы&nbsp;можете поделиться обратной связью о&nbsp;наших предеачах, темах, подборках и&nbsp;вообще обо всём! Это&nbsp;можно сделать либо написав нам&nbsp;в&nbsp;форме ниже, либо кликнув на&nbsp;наши соцсети в&nbsp;подвале сайта. Спасибо! Услышимся!:)
+            </p>
+          </div>
+        </div>
+
+
+
+        <!-- Список людей -->
+        <ul class="about__people list-reset flex">
+          <li class="about__human about-human">
+
+            <!-- Картинка человека -->
+            <picture>
+              <source srcset="img/about/image_320/dmitry_gutenberg.webp" media="(max-width: 320px)">
+              <source srcset="img/about/image_768/dmitry_gutenberg.webp" media="(max-width: 768px)">
+              <source srcset="img/about/image_1024/dmitry_gutenberg.webp" media="(max-width: 1024px)">
+              <img class="about__image" src="img/about/image_1920/dmitry_gutenberg.webp" alt="Дмитрий Гутенберг">
+            </picture>
+
+            <!-- Текстовое содержимое -->
+            <div class="about-human__content">
+              <h3 class="about-human__title">Дмитрий Гутенберг</h3>
+
+              <p class="about-human__descr">
+                Эксперт (ну, почти) по&nbsp;всем вопросам (почти)
+              </p>
+            </div>
+
+          </li>
+
+          <li class="about__human about-human">
+
+            <!-- Картинка человека -->
+            <picture>
+              <source srcset="img/about/image_320/anna_vasilyeva.webp" media="(max-width: 320px)">
+              <source srcset="img/about/image_768/anna_vasilyeva.webp" media="(max-width: 768px)">
+              <source srcset="img/about/image_1024/anna_vasilyeva.webp" media="(max-width: 1024px)">
+              <img class="about__image" src="img/about/image_1920/anna_vasilyeva.webp" alt="Анна Васильева">
+            </picture>
+
+            <!-- Текстовое содержимое -->
+            <div class="about-human__content">
+              <h3 class="about-human__title">Анна <br class="about-human__vasilyeva-br"> Васильева</h3>
+
+              <p class="about-human__descr">
+                Как я&nbsp;здесь оказалась? А&nbsp;главное&nbsp;&mdash; зачем?
+              </p>
+            </div>
+
+          </li>
+
+          <li class="about__human about-human">
+
+            <!-- Картинка человека -->
+            <picture>
+              <source srcset="img/about/image_320/peter_dmitrievsky.webp" media="(max-width: 320px)">
+              <source srcset="img/about/image_768/peter_dmitrievsky.webp" media="(max-width: 768px)">
+              <source srcset="img/about/image_1024/peter_dmitrievsky.webp" media="(max-width: 1024px)">
+              <img class="about__image" src="img/about/image_1920/peter_dmitrievsky.webp" alt="Пётр Дмитриевский">
+            </picture>
+
+            <!-- Текстовое содержимое -->
+            <div class="about-human__content">
+              <h3 class="about-human__title">Пётр Дмитриевский</h3>
+
+              <p class="about-human__descr">
+                Господа! Внимание! Благодарю за&nbsp;внимание!
+              </p>
+            </div>
+
+          </li>
+
+          <li class="about__human about-human">
+
+            <!-- Картинка человека -->
+            <picture>
+              <source srcset="img/about/image_320/tatiana_fleganova.webp" media="(max-width: 320px)">
+              <source srcset="img/about/image_768/tatiana_fleganova.webp" media="(max-width: 768px)">
+              <source srcset="img/about/image_1024/tatiana_fleganova.webp" media="(max-width: 1024px)">
+              <img class="about__image" src="img/about/image_1920/tatiana_fleganova.webp" alt="Татьяна Флеганова">
+            </picture>
+
+            <!-- Текстовое содержимое -->
+            <div class="about-human__content">
+              <h3 class="about-human__title">Татьяна Флеганова</h3>
+
+              <p class="about-human__descr">
+                Одна я&nbsp;в&nbsp;пальто стою красивая, а&nbsp;вокруг...
+              </p>
+            </div>
+
+          </li>
+        </ul>
+
+
+
+        <!-- Форма  -->
+        <form class="about__form about-form" id="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+
+          <label class="about-form__textarea-label">
+            <textarea class="about-form__textarea" name="Сообщение" placeholder="Что скажете?" required></textarea>
+            <span class="about-form__error" aria-hidden="true">Ошибка</span>
+          </label>
+
+          <div class="about-form__box-input flex">
+            <label class="about-form__input-label">
+              <span class="about-form__input visually-hidden">Имя</span>
+              <input class="about-form__input" type="text" name="Имя" placeholder="Имя" required>
+              <span class="about-form__error" aria-hidden="true">Ошибка</span>
+            </label>
+
+            <label class="about-form__input-label">
+              <span class="about-form__input visually-hidden">Почта</span>
+              <input class="about-form__input" type="email" name="Почта" placeholder="Email" required>
+              <span class="about-form__error" aria-hidden="true">Ошибка</span>
+            </label>
+          </div>
+
+          <!-- Кнопка отправки данных -->
+          <div class="about-form__send-box flex">
+            <button class="about-form__send button-reset" type="submit">Отправить</button>
+          </div>
+
+          <label class="about-form__label-checkbox">
+            <input class="about-form__checkbox visually-hidden" type="checkbox" name="Флажок" required>
+            <span class="about-form__checkbox-descr">Согласен на обработку персональных данных</span>
+          </label>
+
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Нижний колонтитул -->
+  <footer class="footer flex">
+
+    <!-- Часть с навигацией и иконками -->
+    <div class="footer__top footer-top">
+      <div class="container footer-top__container flex">
+
+        <!-- Блок с иконками и ссылками -->
+        <div class="footer__logo-box footer-socials">
+
+          <div class="footer__site-logo-box flex">
+            <a class="footer__site-link" href="#header">
+              <img class="footer__site-logo" src="img/footer/wwave.webp" alt="W-Wave">
+            </a>
+          </div>
+
+          <!-- Блок с социальными сетями -->
+          <ul class="footer-socials__list list-reset flex">
+
+            <!-- Ссылка на ютуб -->
+            <li class="footer-socials__item">
+              <a class="footer-socials__link footer-socials__link--youtube" href="https://www.youtube.com/" aria-label="Ютуб"></a>
+            </li>
+
+            <!-- Ссылка на однокласники -->
+            <li class="footer-socials__item">
+              <a class="footer-socials__link footer-socials__link--ok" href="https://ok.ru/" aria-label="Однокласники"></a>
+            </li>
+
+            <!-- Ссылка на вконтакте -->
+            <li class="footer-socials__item">
+              <a class="footer-socials__link footer-socials__link--vk" href="https://vk.com/" aria-label="Вконтакте"></a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- Навигация в нижнем колонтитуле -->
+        <nav class="footer__navigation footer-navigation">
+          <ul class="footer-navigation__list list-reset">
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#podcasts">
+                Подкасты
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#playlists">
+                Плейлисты
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#!">
+                Новости
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#transfers">
+                Передачи
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#!">
+                Сетка
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#!">
+                Блоги
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#guests">
+                Гости
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#about">
+                О&nbsp;нас
+              </a>
+            </li>
+
+            <li class="footer-navigation__item">
+              <a class="footer-navigation__link" href="#!">
+                Топы
+              </a>
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Часть с регистрацией платформы -->
+    <div class="container footer__bottom">
+      <small class="footer__registered footer-registered">W-WAVE <span class="footer-registered__logo"></span> 2023</small>
+    </div>
+  </footer>
+
+</body>
+
+</html>
